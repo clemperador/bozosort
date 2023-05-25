@@ -55,10 +55,10 @@ void go(int list[],int n){
     printf("Let's sort it! :) \n");
     int c = 0;
     while( !sorted(list,n) ){
+        c++;
         swaprandom(list, n);
         printf("%d. ", c);
         printlist(list, n);
-        c++;
     }
 
     printf("List of %d items sorted after %d random swaps! \n", n , c);
