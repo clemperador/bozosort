@@ -11,7 +11,7 @@ This is a basic implementation of it on C. A swap count is also implemented.
 
 
 ## Usage
-An already compiled file is provided, but you can compile it yourself through `$ gcc random_sort.c -o randy`.
+An already compiled file is provided, but you can compile it yourself through `$ gcc bozosort.c -o randy`.
 
 Then just run:
 
